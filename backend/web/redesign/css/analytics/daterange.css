@@ -1,0 +1,73 @@
+#dateRange {
+  display: none;
+  position: absolute;
+  left: initial;
+  right: initial;
+  bottom: initial;
+  top: initial;
+  font-size: 0.875rem;
+  overflow: visible; }
+  #dateRange.dateRange_expanded {
+    display: block; }
+  #dateRange .daterange-selector {
+    display: block;
+    /*background-color: #f6f8fa;*/
+    padding: 0;
+    /*-webkit-box-shadow: 0 2px 6px 0 rgba(191, 196, 202, 0.75);*/
+    /*box-shadow: 0 2px 6px 0 rgba(191, 196, 202, 0.75);*/
+    /*border-radius: 0.25rem;*/
+    overflow: hidden;
+    margin: 0; }
+  #dateRange .modal-header {
+    padding: 0.9375rem;
+    background-color: #fff;
+    border-bottom: 1px solid #D2D9DF; }
+    #dateRange .modal-header ul li {
+      display: inline-block;
+      margin-right: 0.9375rem; }
+  #dateRange .modal-body {
+    padding: 0.9375rem; }
+  #dateRange .modal-footer .btn {
+    max-width: 6rem;line-height: 0;}
+  #dateRange .pikers {
+    margin-bottom: 0; }
+  #dateRange h4 {
+    font-weight: bold;
+    font-size: 0.875rem;
+    margin-bottom: 0.9375rem; }
+  #dateRange #dateRange-date-start-selector {
+    position: relative; }
+    #dateRange #dateRange-date-start-selector:after {
+      content: "";
+      display: block;
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      height: 100%;
+      right: -15px;
+      width: 1px;
+      background-color: #D2D9DF; }
+/*add by zjj*/
+#dateRange{
+  box-shadow: 1px 1px 1px 0 #CBD2D7;
+  border: 1px solid #D2D9DF;
+  border-radius: 3px;
+}
+.daterange-selector .modal-content{
+  border-radius: 0;
+  border: none;
+}
+.daterange-selector table thead{
+  border-bottom: none;
+}
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year{
+  width: 44% !important;
+  margin: 1px 3% !important;
+}
+#dateRange .modal-footer .btn.btn-default{
+  color: #000;
+}
+#dateRange .modal-body {
+    border-bottom: 1px solid #D2D9DF;
+    margin-bottom: 20px;
+}

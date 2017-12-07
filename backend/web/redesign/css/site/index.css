@@ -1,0 +1,24 @@
+/*首页中文版css如下*/
+@import url(index-common.css);
+.mainDtec .d-topDesc .dt-smart .dt-smart-txt {
+	width: 380px;
+    height: 250px;
+    margin-top: 70px;
+    background-image: url(../site/images/d3-smart.png),url(../site/images/d3-market.png);
+    /*margin-left: 135px;*/
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain,130px 35px;
+    background-position: left 50px,left 115px;
+}
+.dt-smart-txt p{
+	margin-top: 86px;
+	font-size: 14px;
+	text-align: justify;
+	font-family: 方正兰亭细黑;
+}
+.dt-category h2 {
+	margin-top:410px;
+	font-size:30px;
+	margin-bottom:20px;
+}

@@ -1,0 +1,124 @@
+a:hover{text-decoration: none;}
+header .side-l{
+	float: left;  line-height: 58.5px;
+}
+/*header{margin-bottom: 30px !important;}*/
+header .side-l span{margin-left: 30px;color: rgba(255, 255, 255, 0.34);}
+header .side-l span.active{
+	color: #fff;
+}
+header select.d-lang{
+	color: #68686C;
+	background-color: rgb(23, 23, 26);
+	height: 24px;
+	font-size: 14px;
+	border: 1px solid;
+	margin-left: 16px;
+	vertical-align: top;
+	float: right;
+	margin-top: 15px;
+	padding: 0 15px;
+}
+
+header .s-users span{
+	float: left;
+}
+header .s-users .d-down-cont{
+	width: 145px;
+	height: 200px;
+	position: absolute;
+	background-color: rgb(28, 28, 32);
+	top: 59px;
+	display: none;
+}
+section.d-tables table{
+	width: 100%;
+}
+section.d-tables{
+	margin-top: 40px;margin-bottom: 100px;
+}
+
+section.d-tables th{
+	color: #000;height: 40px;
+}
+section.d-tables td{
+	color: #000;height: 40px;margin-top: 0;
+}
+section.d-tables tbody tr{
+	height: 40px;margin-top: 0;text-indent: 10px;
+}
+section.d-tables tbody tr:nth-of-type(even){
+	background-color: #f6f6f6;
+}
+.d-drop-one{
+	right: 35%;
+}
+.d-drop-two{
+	right: 0;
+}
+.d-drop-one,.d-drop-two{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+  padding-right: 30px;
+  top: 0;
+  height: 30px;
+  border: none; 
+  text-indent: 10px;
+  position: absolute;
+  background-color: #fafbfd;
+  border: 1px solid #d6dbe1;
+}
+.mainCont .d-main-charts{
+	position: relative;
+}
+.mainCont .d-charts h3{
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.mainCont .d-charts .dropDown{    position: absolute;right: 0;
+  top: 0;}
+.mainCont .d-charts .dropDown select{
+  	width: 240px;
+  	height: 40px;  margin-left: 5px;
+  	display: inline-block;
+  	background: #e9e9e9;
+  	text-align: left;
+  	border-radius: 4px;
+  	-webkit-border-radius: 4px;
+  	-moz-border-radius: 4px;
+  	line-height: 40px;
+  	text-indent: 10px;
+  	background-image: url(images/d-back-down.png);
+  	background-repeat: no-repeat;
+  	background-size: auto;
+  	background-position: 210px 10px;
+ }
+caption {
+	font-size: 22px;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+}
+thead {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 900;
+	color: #000;
+	text-align: left;
+	text-indent: 10px;
+	border-bottom: 2px solid #000;
+}
+tbody td:first-child{
+	min-width: 100px;
+}
+.group label{
+	float: left;
+}
+.group .has-h3{
+	text-align: left;
+	margin-bottom: 40px;
+	padding-left: 0;
+}

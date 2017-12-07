@@ -1,0 +1,235 @@
+.wrap>.container{
+width: 100% !important;
+}
+.library-item:hover{
+background-image: url(images/Campaign.png);
+}
+.row{
+ margin-right: 0 !important;
+ margin-left: 0 !important;
+width: 100%;
+position: absolute;
+}
+.wrap > .container {
+  padding: 0 !important;
+  height: 100% !important;
+}
+.collpasing{
+margin-left: -20px;
+}
+li{
+ list-style: none;
+}
+.table-striped tr td:first-child ,.table-striped tr th:first-child {
+  padding: 0 !important;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+.table-striped tr th{
+  vertical-align: middle !important;
+}
+.table tbody tr>td{
+	  vertical-align: middle !important;
+	  max-width: 300px;
+ 	  word-break: break-all;
+}
+.table input{
+	  font-size: 30px;
+}
+.left_panel .dashbord .gray {
+  margin: 20px auto;
+}
+.left_panel .dashbord1>li {
+  text-indent: 22px;
+}
+.left_panel .dashbord li {
+  text-transform: capitalize;
+  line-height: 50px;
+  padding-top: 0 !important;
+}
+.left_panel .dashbord .white {
+  color: #000;
+  background-color: #fff !important;
+  border-left: 4px solid rgb(51, 122, 183);
+}
+.dashbord1 .collapse li:hover {
+        background-color: #fff;
+}
+.left_panel .dashbord li:last-child .dashbord{
+         padding-top: 20px;
+}
+.left_panel .dashbord li:last-child .dashbord li.white{
+	background-color: #fff;
+}
+.right{
+          margin: auto;
+	  margin-bottom: 100px;
+  width: 100%;
+}
+#library.collapse {
+  padding-bottom: 1px;
+}
+.modal-body .btn,.modal-header .btn{
+  padding: 6px 12px; 
+}
+.collapse.in{
+  text-indent: 25px;
+}
+@media screen and (min-width: 1024px){
+.footer {
+  z-index: 11;
+  bottom: 0;
+  width: 100%;
+} 
+.row{
+  display: -webkit-flex;
+  display: flex;
+}
+.btn {
+  margin-bottom: 30px;
+}
+.form-horizontal>.btn{
+  margin-top: 0;
+}
+form .form-group,.modal-body .form-group{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  min-height: 35px;
+}
+.group_name_select{
+	width: 20% !important;
+	margin-left: 15px;
+}
+.form-horizontal>.btn{
+  margin-top: 0;
+}
+}
+@media screen and (max-width: 1023px){
+ .wrap>.container{
+  width:100% !important;
+}
+.row{
+margin: 0px !important;
+}
+#main-nav.dashbord{
+}
+.form-horizontal>*{
+	float: left;
+}
+.form-control{
+	width: 100% !important;
+	margin-bottom: 20px;
+}
+.form-horizontal form{
+	height:150px !important;
+}
+}
+.left_panel .dashbord1>li{
+  background-position: 19px 17px;
+  background-repeat: no-repeat;
+  background-size: 15px auto;
+}
+.left_panel .dashbord1>li:first-child {
+        background-image: url(images/Dashboard.png);
+}
+.left_panel .dashbord1>li:nth-child(1):hover{
+  background-image: url(images/Dashboard_active.png);
+  background-position: 19px 17px;
+  background-repeat: no-repeat;
+  background-size: 15px auto;
+}
+.left_panel .dashbord1>li:nth-child(2) {
+        background-image: url(images/Campaign.png);
+}
+.left_panel .dashbord1>li:nth-child(2):hover{
+  background-image: url(images/Campaign_active.png);
+  background-position: 19px 17px;
+  background-repeat: no-repeat;
+  background-size: 15px auto;
+}
+.left_panel .dashbord1>li:nth-child(3) {
+        background-image: url(images/Report.png);
+}
+.left_panel .dashbord1>li{
+        text-indent: 22px;
+}
+.left_panel .dashbord1>li:nth-child(4) {
+        background-image: url(images/Setting.png);
+}
+.left_panel .dashbord1>li:nth-child(5) {
+          cursor: pointer;
+          background-image: url(images/Library.png),url(images/arrow.png);
+          background-position: 19px 17px,130px center;
+          background-repeat: no-repeat;
+          background-size: 15px auto,10px auto;
+}
+.left_panel .dashbord .white{
+        color: #000;
+        background-color: #fff !important;
+        border-left: 4px solid rgb(51, 122, 183);
+}
+.left_panel .dashbord1>li:nth-child(2).white {
+          background-image: url(images/Campaign_active.png);color: #000;
+}
+.left_panel .dashbord1>li:nth-child(1).white {
+          background-image: url(images/Dashboard_active.png);color: #000;
+}
+.left_panel .dashbord1>li:nth-child(3).white {
+          background-image: url(images/Report_active.png);color: #000;
+}
+.left_panel .dashbord1>li:nth-child(4).white {
+          background-image: url(images/Setting_active.png);color: #000;
+}
+.left_panel .dashbord1>li:nth-child(5).white {
+          background-image: url(images/Library_active.png),url(images/arrow_active.png);color: #000;
+}
+.left_panel .dashbord li:nth-child(5).gray a{
+        color:gray;
+}
+
+.left_panel .dashbord .gray:hover {
+	background: #fff;
+}
+}
+.left_panel .dashbord li:last-child .dashbord{
+          margin-left: -20px;
+}
+.right{
+          padding-top: 50px;
+}
+.left_panel{
+          padding-top: 80px;
+}
+.folder_and_libs{
+  overflow-x: auto;
+  overflow-y: auto;
+  height: 600px;
+  width: 100%;
+}
+.modal-dialog{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+}
+.modal-dialog .modal-content{
+  margin: auto;
+  width: 1000px;
+}
+.uncheck_folder .col-sm-4{
+float: right;
+}
+.uncheck_folder .col-sm-8{
+width: 50% !important;
+}
+.uncheck_folder .btn{
+float: left;
+margin-top: 5px !important;
+  padding: 2px 4px !important;
+}
+.uncheck_folder .col-sm-4{
+width: auto;
+}

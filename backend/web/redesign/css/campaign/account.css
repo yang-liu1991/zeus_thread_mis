@@ -1,0 +1,44 @@
+.creat-adTxt a.btn{
+  float: right;  font-size: 14px;
+}
+table thead{
+  background-color: #b1b1b8;
+  border-bottom: none !important;
+}
+table {
+   margin-top: 0;  margin-bottom: 40px;
+}
+table thead th{  width: 50%;}
+tbody{  border: 1px solid #EEE;}
+thead{cursor: pointer;}
+table tr:last-child td{padding: 20px 12px;}
+td .btn-del{margin-right: 20px;}
+.btn-lg {
+  padding: 12px 31px;
+}
+.sigl table td {
+   width: 50%; 
+}
+@media screen and (max-width:568px){
+	header .header{
+		height: auto;
+		min-height: 60px;
+	}
+}
+.hide{
+	display: none;
+}
+.bgchange{background-color: #379fe7;}
+table th:last-child {
+  border-top-right-radius: 4px;
+  background-image: url(images/d3-campaign-toggle.png);
+  background-repeat: no-repeat;
+  background-position: 94% center;
+}
+.bgimg-change{
+	background-image: url(images/d3-campaign-plus.png) !important;
+}
+.btn-stable:hover {
+    background-color: #379fe7;
+    color: #fff;
+}

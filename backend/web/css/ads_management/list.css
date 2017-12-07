@@ -1,0 +1,357 @@
+html,body{
+  height: auto !important;
+}
+.wrap{
+ width: 100%;height: 100%;
+  margin: 0 auto !important;
+  height: 100% !important;
+}
+.wrap > .container {
+  padding: 0 !important;
+}
+.left_panel .dashbord1>li:nth-child(1):hover{
+  background-image: url(images/Dashboard_active.png);
+  background-position: 19px 17px;
+  background-repeat: no-repeat;
+  background-size: 15px auto;
+}
+.left_panel .dashbord1>li:nth-child(2):hover{
+  background-image: url(images/Campaign_active.png);
+  background-position: 19px 17px;
+  background-repeat: no-repeat;
+  background-size: 15px auto;
+}
+@media (max-width: 1023px){
+.wrap{
+overflow-x: hidden;
+}
+.navbar-inverse>.container{
+	padding: 0 !important;
+}
+.form-group .btn{
+        width: 100%;
+	margin-top: 15px;
+}
+.form-group .selectAcount{
+	  margin-top: 20px;
+  margin-bottom: -10px;
+}
+.form-group .selectDays-item{
+	width: 100%;
+}
+.form-group .selectacount-item{
+	width: 100%;
+}
+.form-horizontal .form-group{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.right{
+  margin-top: 500px !important;
+	width: 100% !important;
+}
+.wrap>.container {
+                width: 100% !important;
+}
+.navbar-nav {
+        margin-right: 20px;
+}
+        .left_panel{
+                float: left;
+                left:0;
+		position: absolute;  
+                width: 100%; 
+		 padding-top: 50px;
+		background-color: #EFEFEF;
+        }
+        .ads-management-row{
+                padding-left: 0px;
+        }
+}
+.table tbody tr td:nth-child(1) input,.table th input{
+  font-size: 20px;
+}
+.table tbody tr td:nth-child(1),.table tr th:nth-child(1){
+	text-align: center;
+  vertical-align: middle;
+}
+.table tbody tr>td{
+  vertical-align: middle;
+}
+.table td,.table th{
+	  min-width: 50px;
+ 	   vertical-align: middle !important;
+	  min-height: 50px;
+	  padding: 5px !important;
+}
+.site-contact{
+  margin-top: 60px;
+}
+.site-contact>h1,.site-contact>p{
+  text-indent: 15px;
+}
+.site-contact .form-group .btn{
+  margin-top: 30px;
+}
+.site-contact .contact-main{
+  padding-left: 0 !important;
+  margin-top: 45px;
+}
+.site-contact .contact-form{
+  margin: auto;
+}
+.site-contact .form-group .row{
+  display: block;
+}
+.site-contact .form-group .row .col-lg-3 img{
+  max-width: 100%;
+  max-height: 100%;
+  cursor: pointer;
+}
+.site-contact .form-group .row>div{
+  width: 50%;float: left;
+  height: 34px;
+}
+.field-contactform-verifycode .row div{
+  padding-left: 0;
+}
+.account-list-row{
+  margin-top: 60px;
+}
+.wrap  .site-about{
+  margin-left: 15px;  
+  margin-top: 90px;
+}
+.container .site-index{
+  margin-top: 50px;
+}
+.table .pull-right{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  padding: 7px 6px 4px 9px;
+  margin-top: 8px;
+}
+.btn {
+        padding:6px 30px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+}
+.visul_btn{
+        background-color: #5cb85c;
+        border: 1px solid #4CAE4C;
+        color: #fff;
+}
+.btn-success{
+        border-color:none;
+}
+.visul_btn:hover {
+        color: #fff;
+        background-color: #449d44;
+        border-color: #449d44;
+}
+.btn-success {
+        border-color: #5cb85c;
+}
+.btn-success:hover {
+        border-color: #449d44;
+}
+.left_panel .dashbord:first-child {
+        padding-top: 20px;
+        padding-left: 0px;
+        background-color: #efefef;
+}
+
+.left_panel .dashbord li{
+        height: 50px;
+        text-transform: capitalize;
+        line-height: 50px;
+	padding-top: 0 !important;
+        cursor: default;
+}
+.left_panel .dashbord .white{
+        color: #000;
+        background-color: #fff !important;
+        border-left: 4px solid rgb(51, 122, 183);
+}
+.left_panel .dashbord1>li:nth-child(2).white {
+          background-image: url(../images/Campaign_active.png);color: #000;
+}
+.left_panel .dashbord1>li:nth-child(1).white {
+          background-image: url(../images/Dashboard_active.png);color: #000;
+}
+.left_panel .dashbord1>li:nth-child(3).white {
+          background-image: url(../images/Report_active.png);color: #000;
+}
+.left_panel .dashbord1>li:nth-child(4).white {
+          background-image: url(../images/Setting_active.png);color: #000;
+}
+.left_panel .dashbord1>li:nth-child(5).white {
+          background-image: url(../images/Library_active.png),url(../images/arrow_active.png);color: #000;
+}
+.left_panel .dashbord li:nth-child(5).gray a{
+        color:gray;
+}
+.left_panel .dashbord1 li:nth-child(5):hover {
+background-color: #fff;
+}
+.dashbord1 .collapse li:hover {
+        background-color: #fff;
+}
+.glyphicon-th-list:before {
+   content: "";
+}
+.glyphicon-dashboard:before {
+   content: "";
+}
+.glyphicon-unchecked:before {
+   content: "";
+}
+.glyphicon-cog:before {
+   content: "";
+}
+.glyphicon-credit-card:before {
+   content: "";
+}
+.left_panel .dashbord1>li{
+  background-position: 19px 17px;
+  background-repeat: no-repeat;
+  background-size: 15px auto;
+}
+.left_panel .dashbord1>li:first-child {
+        background-image: url(../images/Dashboard.png);
+}
+.left_panel .dashbord1>li:nth-child(2) {
+        background-image: url(../images/Campaign.png);
+}
+.left_panel .dashbord1>li:nth-child(3) {
+        background-image: url(../images/Report.png);
+}
+.left_panel .dashbord1>li{
+        text-indent: 22px;
+}
+.left_panel .dashbord1>li:nth-child(4) {
+        background-image: url(../images/Setting.png);
+}
+.left_panel .dashbord1>li:nth-child(5) {
+          cursor: pointer;
+          background-image: url(../images/Library.png),url(../images/arrow.png);
+          background-position: 19px 17px,130px center;
+          background-repeat: no-repeat;
+          background-size: 15px auto,10px auto;
+}
+.left_panel .dashbord .gray{
+        color : #9d9d9d;
+        margin: 20px auto;
+}
+.left_panel .glyphicon-chevron-toggle{
+         right: 22px;
+         top: 5px !important;
+}
+.left_panel .dashbord li:last-child .dashbord{
+         padding-top: 20px;
+          padding-bottom: 20px;
+}
+.right{
+ 	margin: 30px auto;
+        padding:0;
+        width: 100%;
+ 	width: 100%;
+}
+thead th{
+	padding: 0 !important;
+}
+.table th,.table tr,.table td{
+	text-align: left;
+	line-height: 40px !important;
+        height: 40px !important;
+}
+td{
+	padding: 0 !important;
+}
+.summary{
+ 	margin-bottom: 12px;
+ 	margin-top: 35px;
+}
+#library.collapse {
+  text-indent: 25px;
+}
+@media screen
+and (min-width: 1024px)
+{
+.wrap>.container{
+	width: 100% !important;
+	  height: 100%;
+}
+.right{
+  width: 96%;
+  margin-bottom: 80px;
+}
+.ads-management-row{
+  display: -webkit-flex;
+  display: flex;
+  padding-top: 50px;
+}
+.footer{
+  z-index: 11;
+  bottom: 0;
+  width: 100%;
+  line-height: 60px;
+  padding-top: 0 !important;
+}
+.footer p{
+  margin: 0 !important;
+}
+.left_panel{
+    margin-left: -1px;
+  width: 200px;
+  background: rgb(239, 239, 239);
+}
+.container {
+        width:92%;margin: auto;
+}
+.container .col-md-7{
+  margin-bottom: 50px;
+}
+.row {
+  position: absolute;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+width: 100%;
+}
+}
+.left_panel .dashbord1>li:first-child {
+        background-image: url(../images/Dashboard.png);
+}
+.left_panel .dashbord1>li:nth-child(1):hover{
+  background-image: url(../images/Dashboard_active.png);
+  background-position: 19px 17px;
+  background-repeat: no-repeat;
+  background-size: 15px auto;
+  cursor: pointer;
+}
+.left_panel .dashbord1>li:nth-child(2) {
+        background-image: url(../images/Campaign.png);
+}
+.left_panel .dashbord1>li:nth-child(2):hover{
+  background-image: url(../images/Campaign_active.png);
+  background-position: 19px 17px;
+  background-repeat: no-repeat;
+  background-size: 15px auto;
+}
+.form-group .btn-primary{
+        padding:6px 30px;
+}
+.modal-dialog{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+}
+.modal-dialog .modal-content{
+  margin: auto;
+  padding: 10px;
+  width: 1000px;
+  box-shadow: none;
+  border: none;
+}

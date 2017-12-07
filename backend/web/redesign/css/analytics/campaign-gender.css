@@ -1,0 +1,91 @@
+.tit-item {
+    background-color: #379fe7 !important;
+    position: relative !important;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+}
+.cal-dropDown{
+	position: absolute;
+	width: 500px;
+	border: 1px solid #acb2ba;
+	top: 45px;
+	z-index: 1;
+	background-color: #fff;
+	padding: 10px;
+	box-shadow: 0 0 6px 0px #080808;
+	-webkit-box-shadow: 0 0 6px 0px #080808;
+	-moz-box-shadow: 0 0 6px 0px #080808;
+	-fs-box-shadow: 0 0 6px 0px #080808;
+	-o-box-shadow: 0 0 6px 0px #080808;
+	border-radius: 4px;
+}
+.cal-dropDown label{    margin: 10px auto;}
+.calcul-sel{
+	opacity: 0;
+	position: absolute !important;
+	z-index: 11;
+}
+.imginfos li{
+	min-height: 300px;
+	width: 300px;
+	float: left;
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid #acb2ba;
+	border-radius: 4px;
+}
+h5{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.body-item {
+    margin-bottom: 40px;
+    border: 1px solid #acb2ba;
+    border-top: 0;
+}
+.body-item table {
+    width: 94%;
+    margin: 0 3%;
+}
+table tr:first-child {
+    border: 0;
+}
+table th {
+    padding-left: 0 !important;
+}
+table td {
+    padding: 0 12px;
+    height: 51px;
+    padding-left: 0;
+    line-height: 9px;
+}
+table thead {
+    border-bottom: 2px solid #acb2ba;
+}
+tbody tr{
+	border-bottom: 0;
+}
+tbody tr:nth-of-type(even){
+	border-top: 1px solid #acb2ba;
+}
+.tit-item-left li {
+    float: left;
+    line-height: 46px;
+    margin-left: 3%;
+    text-align: center;
+    font-size: 18px;
+}
+.tit-item-left a {
+    color: #fff;
+}
+.calcul-sel-show{
+	-webkit-appearance: button;
+}
+.select-date {
+    margin-left: 20px;
+}
+.select-default {
+    border: 1px solid #acb2ba;
+    background-color: #fafbfd;
+}

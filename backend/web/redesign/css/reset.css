@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*  基础样式
+----------------------------------------------------------------------------------------------------*/
+html,
+body, h1, h2, h3, h4, h5, h6, hr, p, iframe,
+dl, dt, dd, ul, ol, li,
+form, button, input, textarea,
+th, td ,header,footer{
+	margin: 0;
+	padding: 0;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body, button, input, textarea {
+    font-size: 14px;
+    font-family: "微软雅黑",Segoe UI,Tahoma,Verdana,Serif,courier,Times,Sans-serif,Monospace,Cursive,Fantasy,'New Century Schoolbook',
+     Georgia, 'New York';
+}
+img {
+	border: none;display:block
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ol, ul {
+	list-style-type: none;
+}
+
+

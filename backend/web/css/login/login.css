@@ -1,0 +1,40 @@
+/*login.css濡備笅*/
+.wrap{min-height: 600px;}
+.mark{
+  background-image: url(images/login-bg.jpg);  background-repeat: no-repeat;
+  background-size: cover;min-height: 600px;
+  background-position: center;
+  width: 100%;height: 100%;position: absolute;top: 0;left: 0;right: 0;bottom: 0;
+}
+.mainContainer{  position: relative;}
+.modal-login{width: 452px; background-color: #fff;  top: 50%;
+  left: 50%;
+  margin-left: -246px;
+  margin-top: -247px;
+    position: absolute;  box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.65);}
+.modal-login header{height: 122px;  background-color: #f6f6f6;
+	background-image: url(../site/images/d3-fonts.png),url(../site/images/d3-logo2.png);
+	background-repeat: no-repeat;
+	background-position: center,center;}
+
+.modal-login .group input:not([type='radio']){
+  height: 56px;  text-indent: 20px;  font-size: 18px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+.modal-login .group input[type='radio']{
+  width: auto;height: auto;margin-left: 10px;
+}
+.modal-login .forget-psw{text-align: center;  margin-top: 10px;  color: #1c91e3;}
+.modal-login .forget-psw:hover{opacity: .9;}
+.modal-login .error-tips{text-align: center;
+  color: red;  position: absolute;
+  top: -20px;
+  margin-bottom: 10px;}
+.group label input.sel-rem{  width: auto !important;
+  vertical-align: middle;}
+.btn-submit{height: auto !important;text-indent: 0 !important;}
+.mult .creat-title-group li:not(:first-child){
+}
+.group{width: 80%;  margin: auto auto 20px auto;}

@@ -1,0 +1,14 @@
+
+#get-spend-info {
+	position:absolute;
+	margin-top:0px;
+	margin-left:520px;
+}
+
+#account-creditlimit-info {
+	display:none;
+}
+
+#account-creditlimit-errormessage {
+	display:none;
+}

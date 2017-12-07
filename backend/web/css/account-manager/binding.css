@@ -1,0 +1,13 @@
+#get-account-info {
+	position:absolute;
+	margin-top:0px;
+	margin-left:520px;
+}
+
+#binding-change-info {
+	display:none;
+}
+
+#account-binding-errormessage {
+	display:none;
+}

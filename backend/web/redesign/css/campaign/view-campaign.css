@@ -1,0 +1,96 @@
+.creat-cont-wrap{position: relative;}
+.creat-cont .creat-title .adformat{margin-right: 58px;}
+.creat-title label:not(.addformat){margin-right: 33px;}
+.creat-title input[type='radio']{margin-right: 10px;}
+.creat-cont .creat-title .adformat label:first-child{margin-left: 46px;}
+.creat-title{margin-bottom: 42px;}
+.creat-cont-item h3{font-size: 24px;font-weight: 100;}
+.adTxt-btn{text-align: right;}
+.creat-sidebar{width: 460px;background: rgb(238, 238, 238);height: 754px;position: absolute;right: 0;top: 0;}
+.img-show li p{width: 100%;height: 25px;line-height: 25px;position: absolute;bottom: 0;background-color: rgba(0, 0, 0, 0.63);text-align: center;color: #fff}
+table thead{background-color: #c2c8d0;border-bottom: none;cursor: pointer;color: #fff;}
+table thead:hover{
+  background-color: rgba(194, 200, 208, 0.9);
+}
+table{margin-top: 0; }
+table tbody{ border: 1px solid #EEE;}
+table thead th a.btn-toggle{width: 50px;height: 20px;background-color: transparent;}
+table tbody td:first-child{font-weight: bold;}
+.creat-img-show{
+  display: inline-block;
+  max-width: 190px;
+  position: relative;
+  float: left;
+  margin: 10px;}
+.creat-img-show img{max-width: 100%;min-height: 100%;}
+.creat-img-show p{  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;}
+table .imgshow{padding: 20px 0;}
+.sigl table th:last-child{text-align: right;  border-top-right-radius: 4px;  background-image: url(images/d3-campaign-toggle.png);
+  background-repeat: no-repeat;
+  background-size: 17px;
+  background-position: right 20px center;}
+.btn-groups{float: right;font-size: 14px;}
+.btn-groups a.btn{margin-left: 5px;}
+.mainCont{margin-bottom: 80px;}
+.adTxt-ctner table{margin-bottom: 40px;}
+.bgimg-change{background-image: url(images/d3-campaign-plus.png) !important;}
+.bgcolor-change{background-color: #379fe7;}
+.bgcolor-change:hover{background-color: #44b2fe;}
+/*view-campaign.htm*/
+.view-campaign .sigl table td {
+  white-space: pre-line;
+}
+.view-campaign table td.url a{color: #5cacea;}
+table tr:nth-child(even){
+  background-color: #F6F6F6;
+}
+table td:nth-child(even){
+  width: 60%;
+}
+table td:nth-child(odd){
+  width: 40%;
+}
+.view-campaign table th {
+  white-space: pre-line;
+  padding: 0px 20px 20px !important;
+  color: #fff;
+  font-weight: 100;
+}
+.has-pic-tips{
+  padding: 10px;
+}
+.creat-img-show-wrap{
+  display: inline-block;
+  /*max-width: 190px;*/
+  position: relative;
+  float: left;
+}
+table tr {
+  border-bottom: none !important;
+}
+.has-pic-tips{
+	position: absolute;
+	top: -15px;
+	max-width: 190px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.creat-img-show {
+	display: inline-block;
+	width: 190px;
+	height: 100px;
+	position: relative;
+	float: left;
+	margin: 15px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}

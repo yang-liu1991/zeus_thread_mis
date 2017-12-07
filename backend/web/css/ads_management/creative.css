@@ -1,0 +1,112 @@
+	.form-group {
+	  margin-bottom: 35px;
+ 	  height: 35px;
+ 	  line-height: 35px;
+	}
+	.modal-content{
+	  overflow: auto;
+	  padding-bottom: 40px;
+	}
+	.modal{
+	  width: 100%;
+ 	  height: 100%;
+ 	  display: -webkit-flex;
+	}
+	.modal-dialog{
+	  margin: auto;
+	}
+	.modal-content .btn{
+ 	 padding: 6px 12px;
+ 	 margin-right: 15px;
+	}
+	.btn_choose,.btn_preview{
+  	margin-left: 15px;
+	}
+	.btn_choose:hover,.btn_preview:hover {
+	color: #fff;
+	background:#4cae4c;
+	border-color: #4cae4c;
+	}
+	.btn_next{
+	margin-left: 15px;
+	}
+	.sel-text-btn{
+	margin-right: 0px !important;
+	}
+	.fade .modal{
+	display: flex;
+	}
+	#dcChooseImgArea .dcContainer {
+	  padding: 40px;
+	}
+	#dcChooseImgArea .dcContainer .dcFooter {
+	  background-color: #fff;
+	  border-top: none;
+	}
+	#dcChooseImgArea .dcContainer .dcImgs .imgLibraryBlock {
+	  margin: 7px 20px 0px 0px;
+	}
+	.creative_image_id{
+		width: 100%;
+		position: absolute;
+		color: #fff;
+		#font-size: large;
+		z-index: 2;
+		background: rgba(0,0,0,0.5);
+	}
+
+#dcImgArea{
+	height:400px;
+	overflow:auto;
+	border:1px solid #ccc;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+#dcImageUploadForm{
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+}
+#dcImgArea .dcImgBlock{
+	display: inline-block;
+	vertical-align: top;
+	width: 160px;
+	height: 100px;
+	text-align: center;
+	margin: 9px;
+	color: #fff;
+}
+#dcUploadImg,#dcChooseImg{
+	background-color: #5cb85c;
+}
+#dcUploadImg:active{
+	position: relative;
+	top: 1px;
+	background-color: #5cb85c;
+}
+#dcChooseImg:active{
+	position: relative;
+	top: 1px;
+	background-color: #5cb85c;
+}
+#dcImgArea .dcImgBlock.uploading{
+	background-color: #999;
+}
+#dcImgArea .dcImgBlock i{
+	font-size: 40px;
+	margin-top: 20px;
+}
+#dcImgArea .dcImgBlock .dcText{
+	color: #fff;
+}
+#dcImgArea .dcImgBlock{
+	
+}
+
+.translate_btn{
+	padding: 0px 5px 0px 5px !important;
+}
+.text_remove_btn{
+	padding: 0px 5px 0px 5px !important;
+}

@@ -1,0 +1,185 @@
+/*首页css公共部分如下*/
+@import url(../reset.css);
+body{font-family: Serif;}
+.wrap {
+	width:100%;  position: relative;
+	background-image: linear-gradient( to bottom, #1f2024 0%, #2C2D32 25%, #2C2D32 49%, #303136 53%, #303136 100%);
+}
+.mainDtec {
+	width:100%;
+	margin:0 auto;
+	color:#d0d1d1;
+}
+header {
+	height:110px;font-size:18px;
+	position:relative;
+	background-image:url(../site/images/d3-logo.png);
+	background-position:120px 30px;
+	background-repeat:no-repeat;
+}
+
+
+header a{color: #d0d1d1;}
+header p {
+	background: url(../site/images/d3-tit.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	width: 200px;
+	height: 110px;
+	margin: auto;
+	line-height: 110px;
+}
+.dc-Cont p:last-child{font-weight: bolder;  color: #000;}
+header .d-tips {
+	position:absolute;
+	right: 100px;
+	top:45px;
+}
+header .d-tips  span{margin-right: 20px;}
+header option{background-color: #000;}
+.mainDtec {
+	height:1365px;
+}
+.mainDtec .d-topDesc .dt-smart {
+	height:670px;
+	background-image:url(../site/images/d3-tablemac.png);
+	background-position: center ;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.click-like{  width: 130px;
+  height: 35px;
+  margin-top: 12px;
+  display: inline-block;
+  z-index: 11;
+  cursor: pointer;}
+.click-google{
+  width: 105px;
+  height: 35px;
+  display: inline-block;
+  z-index: 11;
+  cursor: pointer;
+  position: absolute;
+  right: 3%;
+  bottom: 36%;
+}
+.d-lang{
+	background: #222327;
+	color: #FFF;
+	font-family: "courier","Times New Roman",Georgia,serif;
+	border: none;
+}
+.d-lang:focus {
+    outline:none;
+}
+.dt-category>div {
+	float:left;
+	/*width: 33.333%;*/
+	font-size:14px;
+	text-align:center;
+}
+.dt-category .category1 {
+	background-image:url(../site/images/d3-lightning.png);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+.dt-category .category2 {
+	background-image:url(../site/images/d3-books.png);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+.dt-category .category3 {
+	background-image:url(../site/images/d3-statics.png);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+.d-cenDesc {
+	height:670px;
+	text-align:center;
+	background-color:rgb(241,241,241);
+}
+.dc-mark {
+	background-image:url(../site/images/d3-beast.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+	height:510px;margin-top:-110px;
+	position:absolute;
+	width:100%;  z-index: 2;
+	-webkit-animation-name: bounceInDown;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-iteration-count:1;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-delay: 2s;
+}
+@-webkit-keyframes bounceInDown {
+    0%,100%,60%,75%,90% {
+        -webkit-animation-timing-function: cubic-bezier(0.215,.61,.355,1);
+        animation-timing-function: cubic-bezier(0.215,.61,.355,1)
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,-50px,0);
+        transform: translate3d(0,-50px,0)
+    }
+
+    60% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,6px,0);
+        transform: translate3d(0,6px,0)
+    }
+
+    75% {
+        -webkit-transform: translate3d(0,-3px,0);
+        transform: translate3d(0,-3px,0)
+    }
+
+    90% {
+        -webkit-transform: translate3d(0,3px,0);
+        transform: translate3d(0,3px,0)
+    }
+
+    100% {opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+.dc-Cont {
+	height:245px;
+	padding-top:400px;
+}
+.dc-Cont p {
+	color: #141417;
+}
+footer{background-color: transparent;
+  padding: 0 20px;
+  background-image: url(images/d3-google.png),url(images/d3-copyright.png);
+  background-repeat: no-repeat;
+   background-position: 96% center,4% center;
+  position: absolute;
+  bottom: 0;
+  left: 0;  height: 122px;
+  width: 100%;
+  right: 0;}
+.d-botDesc{
+ 	height: 235px;
+	background-image: url(../site/images/d3-fonts.png),url(../site/images/d3-logo2.png);
+	background-repeat: no-repeat;
+	background-position: center ,center;
+	padding-left: 15px;  position: relative;
+	padding-right: 15px;
+	background-color: #fff;
+}
+
+
+.mask{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	bottom: 0;  z-index: 1;
+	background: -webkit-radial-gradient(bottom, rgba(0, 0, 0, 0.6), rgb(48, 49, 55), rgb(49, 50, 56));
+}

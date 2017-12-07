@@ -1,0 +1,13 @@
+#get-account-info {
+	position:absolute;
+	margin-top:0px;
+	margin-left:520px;
+}
+
+#name-change-info {
+	display:none;
+}
+
+#account-name-errormessage {
+	display:none;
+}
