@@ -1,6 +1,6 @@
 <?php
 /**
- * Author: liuyang@domob.cn
+ * Author: young_liu@vip.sina.com
  * Created Time: 2017-01-11 16:43:48
  */
 namespace common\models;

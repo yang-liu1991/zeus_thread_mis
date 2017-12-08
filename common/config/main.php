@@ -4,16 +4,16 @@ return [
     'components' => [
 		'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=dbm-ad.domob.cn;dbname=zeus',
-            'username' => 'zeus',
-            'password' => 'dmsuez315',
+            'dsn' => 'mysql:host=dbm-ad.xxx.cn;dbname=zeus',
+            'username' => 'xxx',
+            'password' => 'xxx',
             'charset' => 'utf8',
 		],
 		'session' => [
         	'class' => 'yii\web\Session',
             'handler' => [
 				'class' => 'common\models\RedisSession',
-                'host' => 'redism-zeus.domob.cn',
+                'host' => 'redism-zeus.xxx.cn',
                 'port' => 5901,
                 'timeOut' => 0,
                 'keyPrefix' => 'zeus_thread_session_',
@@ -36,9 +36,9 @@ return [
 			'useFileTransport' => false,
 			'transport' => [
 				'class'		=> 'Swift_SmtpTransport',
-				'host'		=> 'mail.bluefocus.com',
-				'username'	=> 'facebook-bluevision@bluefocus.com',
-				'password'	=> 'BlueVision2017',
+				'host'		=> 'mail.xxx.com',
+				'username'	=> 'facebook-xxx@xxx.com',
+				'password'	=> 'xxx',
 				'port'		=> '25',
 				'encryption'	=> 'tls',
 			],

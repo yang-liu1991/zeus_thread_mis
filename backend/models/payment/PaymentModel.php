@@ -1,6 +1,6 @@
 <?php
 /**
- * Author: liuyang@domob.cn
+ * Author: young_liu@vip.sina.com
  * Created Time: 2016-12-23 10:58:46
  */
 namespace backend\models\payment;

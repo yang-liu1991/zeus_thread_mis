@@ -1,6 +1,6 @@
 <?php
 /**
- * Author: liuyang@domob.cn
+ * Author: young_liu@vip.sina.com
  * Created Time: 2017-02-09 14:50:53
  */
 namespace backend\models\account;

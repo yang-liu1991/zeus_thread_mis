@@ -29,7 +29,7 @@ return [
 					'class' =>'yii\log\EmailTarget',
 					'levels' => ['error'],
 					'message' => [
-						'from' => ['facebook-bluevision@bluefocus.com'],
+						'from' => ['facebook-xxx@bluefocus.com'],
 						'to' => ['luoli@domob.cn'],
 						'subject' => 'Thread Mis Exception Message',
 					],  

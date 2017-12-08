@@ -1,6 +1,6 @@
 <?php
 /**
- * Author: liuyang@domob.cn
+ * Author: young_liu@vip.sina.com
  * Created Time: 2016-08-19 17:28:20
  */
 
@@ -164,7 +164,7 @@ class AccountsCollectController extends ConsoleBaseController
 
 	public function actionSendmail()
 	{
-		\common\models\SendMail::sendTextEmail(['liuyang@domob.cn', 'uselinux@sina.com'], 'test', 'eeeeee');
+		\common\models\SendMail::sendTextEmail(['young_liu@vip.sina.com', 'uselinux@sina.com'], 'test', 'eeeeee');
 	}
 }
 

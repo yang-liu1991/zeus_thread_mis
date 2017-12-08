@@ -18,8 +18,8 @@ return [
                     'class' => 'yii\log\EmailTarget',
                     'levels' => ['error', 'warning'],
 					'message' => [
-						'from' => ['facebook-bluevision@bluefocus.com'],
-						'to' => ['liuyang@domob.cn'],
+						'from' => ['facebook-xxx@bluefocus.com'],
+						'to' => ['young_liu@vip.sina.com'],
 						'subject' => 'Thread Get Account Status Exception Message!',
 					]
                 ],

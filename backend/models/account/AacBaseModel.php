@@ -1,6 +1,6 @@
 <?php
 /**
- * Author: liuyang@domob.cn
+ * Author: young_liu@vip.sina.com
  * Created Time: 2016-12-20 15:17:56
  * Desc: 这是调用AAC接口的一个基类
  */
